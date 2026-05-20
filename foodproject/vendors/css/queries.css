@@ -1,0 +1,360 @@
+@media only screen and (max-width: 87.5em)  {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 63.9375em) {
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    body {
+        font-size: 1.125rem;
+    }
+
+    section {
+        padding: 3.75rem 0;
+    }
+    
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-nav {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .steps-box {
+        margin-top: 0.625rem;
+    }
+
+    .steps-box:last-child,
+    .steps-box:first-child {
+        margin-top: 0.625rem;
+    }
+     .section-steps {
+        height: auto;
+    }
+
+    .section-cities {
+        height: auto;
+    }
+
+    .section-plans {
+        height: auto;
+    }
+
+    .work-step {
+        margin-bottom: 2.5rem;
+    }
+
+    .work-step:last-of-type {
+        margin-bottom: 3.75rem;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .small-icon {
+        width: 1.0625rem;
+        margin-right: 0.3125rem;
+    }
+.section-form{
+    height: auto;
+}
+    .city-feature {
+        font-size: 90%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section-testimonal{
+        height: auto;
+    }
+    .plan-price {
+        font-size: 2.5rem;
+    }
+
+    .section-form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .plan-box div:last-of-type {
+        height: auto;
+    }
+
+    .social-links li {
+        text-align: center;
+    }
+    footer{
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 47.9375em) {
+   
+    body {
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    button {
+        visibility: visible;
+    }
+
+    section {
+        padding: 1.875rem 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+        height: inherit;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+
+    .app-screen {
+        width: 40%;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .work-step div {
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-right: 0.9375rem;
+        padding: 0.25rem;
+        font-size: 1.2rem;
+    }
+
+    .work-step,
+    .work-step:last-of-type {
+        margin-bottom: 1.25rem;
+    }
+
+    .section-testimonal {
+        font-size: 0.8rem;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 140%;
+        text-align: center;
+    }
+
+    blockquote {
+        line-height: 140%;
+        padding: 0 2%;
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+
+    blockquote::before {
+        font-size: 300%;
+    }
+
+    .section-steps {
+        height: auto;
+    }
+
+    .section-cities {
+        height: auto;
+    }
+
+    .section-plans {
+        height: auto;
+    }
+
+    .plan-box div {
+        height: auto;
+    }
+
+    .section-form {
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .social-links ul {
+        text-align: center;
+    }
+
+    .plan-box div:last-of-type {
+        height: auto;
+    }
+
+    .social-links li {
+        text-align: center;
+    }
+
+    .main-nav {
+        display: none;
+        flex-direction: row;
+        background: white;
+        /* White background for dropdown */
+        position: absolute;
+        top: 90%;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .main-nav.active {
+        display: flex;
+        line-height: 1.5rem;
+    }
+
+    .hamburger {
+        visibility: visible;
+        display: flex;
+
+    }
+
+
+    footer {
+        text-align: center;
+    }
+
+    footer p {
+        height: auto;
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 30em) {
+    section {
+        padding: 1.5625rem 0;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    body {
+        font-size: 0.8rem;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 6%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 2% 0;
+        height: inherit;
+        padding: 0 2%;
+    }
+
+    .section-testimonal h2 {
+        font-size: 0.9rem;
+        height: auto;
+    }
+
+    blockquote {
+        line-height: 130%;
+        padding: 0 2%;
+        margin-top: 10px;
+        font-size: 0.6rem;
+    }
+
+    blockquote::before {
+        font-size: 200%;
+    }
+
+    .section-cities {
+        height: auto;
+    }
+
+    .section-plans {
+        height: auto;
+    }
+
+    .plan-box div {
+        height: auto;
+    }
+
+    .plan-box div:last-of-type {
+        height: auto;
+    }
+
+    .section-form {
+        height: auto;
+        margin: 0 auto;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .hamburger {
+        visibility: visible;
+    }
+
+    .social-links li {
+        text-align: center;
+    }
+
+    .main-nav {
+        font-size: 0.6rem;
+    }
+
+    .main-nav li {
+        margin-left: 0%;
+        display: inline-block;
+    }
+
+    .btn-full:link,
+    .btn-full:visited,
+    input[type="submit"] {
+        margin-bottom: 1rem;
+    }
+
+    footer p {
+        margin-top: 2rem;
+    }
+}
